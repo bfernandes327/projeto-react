@@ -1,0 +1,82 @@
+: raiz {
+  font-family : Inter , Avenir , Helvetica , Arial , sans-serif;
+  tamanho da fonte :  16 px ;
+  altura da linha :  24 px ;
+  peso da fonte :  400 ;
+
+  esquema de cores : claro escuro;
+  cor :  rgba ( 255 ,  255 ,  255 ,  0,87 );
+  cor de fundo :  # 242424 ;
+
+  fonte-síntese : nenhum;
+  renderização de texto : optimizeLegibility;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing : tons de cinza;
+  -webkit-text-size-adjust :  100 % ;
+}
+
+um {
+  peso da fonte :  500 ;
+  cor :  # 646cff ;
+  decoração de texto : herdar;
+}
+a : passe o mouse {
+  cor :  # 535bf2 ;
+}
+
+corpo {
+  margem :  0 ;
+  exibição : flexível;
+  itens de lugar : centro;
+  largura mínima :  320 px ;
+  altura mínima :  100 vh ;
+}
+
+h1 {
+  tamanho da fonte :  3,2 em ;
+  altura da linha :  1,1 ;
+}
+
+entrada {
+  raio da borda :  8 px ;
+  borda :  1 px sólido transparente;
+  preenchimento :  0,6 em  1,2 em ;
+  tamanho da fonte :  1 em ;
+  peso da fonte :  500 ;
+  font-family : herdar;
+  cor de fundo :  # 1a1a1a ;
+  cursor : ponteiro;
+  transição : cor da borda 0,25 s ;
+}
+
+botão {
+  raio da borda :  8 px ;
+  borda :  1 px sólido transparente;
+  preenchimento :  0,6 em  1,2 em ;
+  tamanho da fonte :  1 em ;
+  peso da fonte :  500 ;
+  font-family : herdar;
+  cor de fundo :  # 1a1a1a ;
+  cursor : ponteiro;
+  transição : cor da borda 0,25 s ;
+}
+botão : passe o mouse {
+  cor da borda :  # 646cff ;
+}
+botão : foco ,
+botão : foco-visível {
+  contorno :  4 px auto-webkit-focus-ring-color;
+}
+
+@media ( prefere esquema de cores : claro) {
+  : raiz {
+    cor :  # 213547 ;
+    cor de fundo :  # ffffff ;
+  }
+  a : passe o mouse {
+    cor :  # 747bff ;
+  }
+  botão {
+    cor de fundo :  # f9f9f9 ;
+  }
+}

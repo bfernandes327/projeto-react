@@ -1,0 +1,41 @@
+# raiz {
+  largura máxima :  1280 px ;
+  margem :  0 automático;
+  preenchimento :  2 rem ;
+  direção de texto : centro;
+}
+
+. logotipo {
+  altura :  6 em ;
+  preenchimento :  1,5 em ;
+  mudará de vontade : filtro;
+}
+. logotipo : passe o mouse {
+  filtro :  drop-shadow ( 0  0  2 em  # 646cffaa );
+}
+. logotipo . reagir : passe o mouse {
+  filtro :  drop-shadow ( 0  0  2 em  # 61dafbaa );
+}
+
+@keyframes logo-spin {
+  de {
+    transformar :  girar ( 0 graus );
+  }
+  parágrafo {
+    transformar :  girar ( 360 graus );
+  }
+}
+
+@media ( preferência movimento reduzido : sem preferência) {
+  a : enésimo tipo ( 2 ) . logotipo {
+    animação : logo-spin infinito 20 s linear;
+  }
+}
+
+. carta {
+  preenchimento :  2 em ;
+}
+
+. leia-os-documentos {
+  cor :  # 888 ;
+}
