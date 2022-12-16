@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cabecalho{
+    display:flex;
+    background-color: rgba(255, 68, 0, 0.752);
+    justify-content: centers;
+}
+
+h1 {
+    background-color: rgba(255, 68, 0, 0.752);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    padding: 5px;
+}
+
+.imagemcabecalho{
+    width: 50%;
+}
+
+.caixafala{
+    display:flex ;
+    font-size: 30px;
+    padding: 10px;
+}
+.caixafala>p{
+    width: 100%;
+    
+}
+.caixafala>img{
+    width:300px;
+}
+.textocabecalho{
+    font-size:45px ;
+}
+.caixafototexto>img{
+    width: 300px;
+    padding-left: 250px;
+    
+}
+
+.caixafototexto{
+    background-color: rgba(255, 68, 0, 0.676);
+}
+
+.caixadois{
+    display: block;
+    flex-direction: column;
+    padding:10px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.citacao{
+    margin: 0 auto;
+    box-shadow: 5px 10px #ff9a3c;
+    padding: 20px;
+    border-radius: 10px;
+    margin:100px 40px;
+    font-size:35px ;
+}
+
+.citacaoautor{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.imagemg{
+    text-align: center;
+    width:400px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+.contato{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contato>a:hover{
+    background-color: #ff9a3c;
+    cursor: pointer;
+    border-radius: 50%;
+
+
+
+}
+
+footer{
+    background-color: rgba(255, 68, 0, 0.752);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;   
+}
+.redesocial>img{
+    width: 50px;
+    
+}
+
